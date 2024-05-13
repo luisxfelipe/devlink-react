@@ -1,6 +1,6 @@
 import { collection, doc, getDoc, getDocs, orderBy, query } from 'firebase/firestore';
 import { useEffect, useState } from 'react';
-import { FaFacebook, FaGithub, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
 
 import Social from '../../components/Social';
 import { db } from '../../services/firebaseConnection';
